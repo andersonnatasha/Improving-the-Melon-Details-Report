@@ -6,6 +6,7 @@ from melons import melons
 
 def print_melon(melons):
     """Print each melon with corresponding attribute information."""
+    
     for melon_name, attributes in melons.items():
         print(melon_name.upper())
 
